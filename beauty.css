@@ -1,0 +1,56 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color:darkkhaki
+}
+#header {
+    background-color: indianred;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+h1 {
+    vertical-align: middle;
+    color: white;
+    font-weight: bold;
+}
+.row {
+    margin: 0 auto;
+    width: 210px;
+    padding: 0.5rem;
+    text-orientation: sideways-right;
+}
+.row label {
+        display: inline-block;
+        width: 110px;
+        
+        
+        
+}
+.row text {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+
+}
+
+#results {
+    margin: 30px 20px 10px 0px;
+}
+
+.person-row {
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: dimgrey;
+    width: 100%;
+    float: left;
+}
+.person-row img {
+        float: left;
+        margin-right: 20px
+}
+.person-info {
+    float: left;
+}
+.person-row > button {
+    float: right;
+}
